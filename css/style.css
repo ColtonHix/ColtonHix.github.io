@@ -8,18 +8,18 @@ body {
   margin:0px;
   border:0px;
 }
-#header {
+.header {
   margin:0px;
   background-image:url(/img/header.png);
   background-size:cover;
   background-position:top;
   background-attachement:fixed;
 }
-#nav {
+.nav {
   background-color: #cccccc;
   float: left;
 }
-#nav ul li {
+.nav ul li {
   text-decoration: none;
   float: left;
   display: block;
