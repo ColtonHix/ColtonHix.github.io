@@ -1,5 +1,6 @@
 .header {
   margin:0px;
+  height:0px;
   background-image:url(/img/header.png);
   background-size:cover;
   background-position:top;
