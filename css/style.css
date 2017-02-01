@@ -15,3 +15,11 @@ body {
   background-position:top;
   background-attachement:fixed;
 }
+#nav {
+  background-color: #cccccc;
+}
+#nav ul li {
+  text-decoration: none;
+  float: left;
+  display: block;
+}
