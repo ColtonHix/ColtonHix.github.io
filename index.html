@@ -9,10 +9,20 @@
   crossorigin="anonymous"></script>
 <script src='https://cdn.rawgit.com/naptha/tesseract.js/1.0.10/dist/tesseract.js'></script>
 <script>
+<<<<<<< HEAD
 	$("#btn").on("click", function() {
 		Tesseract.recognize($("#img").val()).then(function(r) {
 			console.log(r);
 		});
 	});
+=======
+$(document).ready(function() {
+    $("[href]").each(function() {
+        if (this.href == window.location.href) {
+            $(this).addClass("active");
+        }
+    });
+});
+>>>>>>> parent of ddd977c... active
 </script>
 </html>
