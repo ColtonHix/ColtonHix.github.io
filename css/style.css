@@ -1,116 +1,23 @@
+.head {
+  height: 40%;
+}
 .header {
-  height: 50vh;
   margin:0px;
-  background-image:url(../img/header.png);
+  background-image:url(/img/header.png);
   background-size:cover;
   background-position:top;
-  background-attachment:fixed;
-  text-align: center;
+  background-attachement:fixed;
 }
 h1, h2, h3, h4, h5, h6 {
   margin:0px;
   padding:0px;
   border:0px;
 }
+.nav {
+  background-color: #cccccc;
+}
 .nav ul li {
   text-decoration: none;
   float: left;
   display: block;
-}
-.information-block {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,565656+50,4c4c4c+100 */
-background: #4c4c4c; /* Old browsers */
-background: -moz-linear-gradient(top,  #4c4c4c 0%, #565656 50%, #4c4c4c 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #4c4c4c 0%,#565656 50%,#4c4c4c 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #4c4c4c 0%,#565656 50%,#4c4c4c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#4c4c4c',GradientType=0 ); /* IE6-9 */
-
-  height: 25vh;
-}
-.in-segment {
-  height: 100%;
-}
-.header-block {
-  margin: 0px;
-  padding: 50px;
-  position: relative;
-  top:50%;
-  transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -o-transform: translateY(-50%);*/
-  color:black;
-  border: solid 3px black;
-  border-radius: 10px;
-}
-.header-block hr {
-  border-color: #cccccc;
-}
-.btn.outline {
-	background: none;
-	padding: 12px 22px;
-}
-.btn-primary.outline {
-	border: 2px solid white;
-	color: white;
-  -webkit-transition: border-color .4s ease-out, color .4s ease-out;
--moz-transition: border-color .4s ease-out, color .4s ease-out;
--o-transition: border-color .4s ease-out, color .4s ease-out;
-transition: border-color .4s ease-out, color .4s ease-out;
-
-}
-.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
-	color: #ff9147;
-	border-color: #ff9147;
-}
-.btn-primary.outline:active, .btn-primary.outline.active {
-	border-color: #007299;
-	color: #007299;
-	box-shadow: none;
-}
-.nav {
-  height: 50px;
-  background-color: #4c4c4c;
-}
-.nav ul li {
-  -webkit-transition: background-color .4s ease-out;
-  -moz-transition: background-color .4s ease-out;
-  -o-transition: background-color .4s ease-out;
-  transition: background-color .4s ease-out;
-}
-.nav ul li a {
-  color: #cccccc;
-  display: block;
-  padding: 15px;
-  margin: 0px;
-  border: 0px;
-}
-.nav ul li a:hover {
-  text-decoration: none;
-  color:#4c4c4c;
-}
-.nav ul li:hover {
-  color:#4c4c4c;
-  text-decoration: none;
-  background-color: #cccccc;
-}
-.nav li a.active {
-	position: relative;
-	background: #cccccc;
-  color: #4c4c4c;
-}
-.nav li a.active:after {
-	top: 100%;
-	left: 50%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-	border-color: rgba(204, 204, 204, 0);
-	border-top-color: #cccccc;
-	border-width: 20px;
-	margin-left: -20px;
 }
