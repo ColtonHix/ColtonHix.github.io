@@ -1,4 +1,5 @@
 # This is a gross index.md file
+*This page will be reverted to the previous [index page](https://coltonhix.github.io/index-old) after this assignment*
 
 I have to create this for the assignment.
 
