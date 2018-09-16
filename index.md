@@ -10,3 +10,5 @@ Back in high school I created this GitHub repository for another assignment so I
 
 ### Look it's my handmade logo and favicon from years ago that I accidentally made into low quality
 ![Really not sure a .ico will show up here](https://coltonhix.github.io/favicon.ico)
+
+You know I'm pretty dissapointed I can't replicate target="\_blank" and images shove the text into an alt tag instead of a title. The latter is actually web accessibility violation... 
