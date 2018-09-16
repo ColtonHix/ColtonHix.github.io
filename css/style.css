@@ -18,7 +18,7 @@ html {
   height: 50vh;
   width: 100vw;
   margin:0px;
-  /* background: url("../img/NewZealand.png"); */
+  background: url("../img/NewZealand.png");
   background-size:cover;
   background-position:center;
   background-attachment:fixed;
